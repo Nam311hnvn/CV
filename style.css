@@ -1,42 +1,73 @@
-.avatar{
+
+.avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.container{
+.main-content,.sidebar{
+    display: inline;
+}
+.container {
     max-width: flex;
     margin: 0px auto;
-
+    max-width: 21cm;
 }
-.header{
-    color:black;
-    margin:0px auto;
+
+.header {
+    color: black;
+    margin: 0px auto;
     padding: 20px;
     text-align: start;
-   
+
 }
-.main-content{
-    display: flex; 
+.blank{
+    flex-basis: 10%;
+}
+.main-content {
+    display: flex;
     min-height: auto;
-   
-} 
-.sidebar{
-    flex-basis:30%;
+    max-height: fit-content;
+}
+
+.sidebar {
+    flex-basis: 35%;
     min-height: auto;
-    
-} 
-.content{
-    flex-basis:70%;
+    max-height: fit-content;
+}
+
+.content {
+    flex-basis: 60%;
     min-height: auto;
     padding: 15px 0px;
-     
+
 }
+
+.skillbar {
+    width: 100%;
+    background-color: white;
+    border:solid 1px black;
+}
+
+.bar {
+    text-align: right;
+    padding-bottom: 6px;
+}
+
+.THVP {
+    width: 50%;
+    background-color: #ff8533;
+}
+
+.TA {
+    width: 75%;
+    background-color: #ff8533;
+    
+}
+
 /* .footer{
    
 } */
 /* .job{
     
 } */
-
-
